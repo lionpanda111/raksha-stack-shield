@@ -21,9 +21,9 @@ const Navbar: React.FC = () => {
         <nav className="flex items-center justify-between py-4">
           <Link to="/" className="flex items-center gap-2">
             <img 
-              src="/lovable-uploads/3367e71d-0dc7-4295-a473-bb4418ae724d.png" 
+              src="/lovable-uploads/374ad721-c3b7-402d-8c55-866f2b7f0ba8.png" 
               alt="Raksha Stack Logo" 
-              className="h-10 w-auto" 
+              className="h-12 w-auto" 
             />
           </Link>
 

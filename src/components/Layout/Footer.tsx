@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-4 flex flex-col">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-3 mb-4">
               <img 
-                src="/lovable-uploads/3367e71d-0dc7-4295-a473-bb4418ae724d.png" 
+                src="/lovable-uploads/374ad721-c3b7-402d-8c55-866f2b7f0ba8.png" 
                 alt="Raksha Stack Logo" 
-                className="h-10 w-auto" 
+                className="h-14 w-auto" 
               />
             </div>
             <p className="text-gray-300 mb-6">
@@ -21,13 +21,22 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex items-center space-x-4">
               <a
-                href="https://www.instagram.com/rakshastack"
+                href="https://www.instagram.com/rakshastack/?igsh=ZWowdnVlejl6dm80#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.facebook.com/share/1AahFMGFZn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
               </a>
             </div>
           </div>
