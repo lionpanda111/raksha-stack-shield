@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Shield, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,11 +20,11 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <nav className="flex items-center justify-between py-4">
           <Link to="/" className="flex items-center gap-2">
-            <Shield className="h-8 w-8 text-blue-accent" />
-            <div>
-              <h1 className="text-xl font-bold text-navy">Raksha Stack</h1>
-              <p className="text-xs text-gray-600">Your Stack</p>
-            </div>
+            <img 
+              src="/lovable-uploads/3367e71d-0dc7-4295-a473-bb4418ae724d.png" 
+              alt="Raksha Stack Logo" 
+              className="h-10 w-auto" 
+            />
           </Link>
 
           {/* Mobile menu button */}

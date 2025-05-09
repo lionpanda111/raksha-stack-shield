@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin, Instagram, Shield } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -10,11 +10,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-4 flex flex-col">
             <div className="flex items-center gap-2 mb-4">
-              <Shield className="h-8 w-8 text-blue-accent" />
-              <div>
-                <h3 className="text-xl font-bold">Raksha Stack</h3>
-                <p className="text-xs text-gray-300">Your Stack</p>
-              </div>
+              <img 
+                src="/lovable-uploads/3367e71d-0dc7-4295-a473-bb4418ae724d.png" 
+                alt="Raksha Stack Logo" 
+                className="h-10 w-auto" 
+              />
             </div>
             <p className="text-gray-300 mb-6">
               Professional cybersecurity services protecting businesses from digital threats.

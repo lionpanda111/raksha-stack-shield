@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Shield, ShieldCheck } from 'lucide-react';
+import { Shield } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col space-y-6">
             <div className="flex items-center gap-3">
-              <ShieldCheck className="h-10 w-10 text-blue-accent" />
+              <Shield className="h-10 w-10 text-blue-accent" />
               <h1 className="text-4xl md:text-5xl font-bold leading-tight">
                 Is Your Business <span className="text-blue-accent">Secure</span> from Hackers?
               </h1>
@@ -31,9 +31,11 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-blue-accent/20 rounded-full blur-3xl"></div>
               <div className="relative bg-navy-light p-8 rounded-xl border border-white/10 backdrop-blur">
-                <Shield className="h-24 w-24 mx-auto mb-4 text-blue-accent" />
-                <h2 className="text-3xl font-bold text-center">Raksha Stack</h2>
-                <p className="text-lg text-center text-gray-300 mt-2">Your Stack</p>
+                <img 
+                  src="/lovable-uploads/3367e71d-0dc7-4295-a473-bb4418ae724d.png" 
+                  alt="Raksha Stack Logo" 
+                  className="h-24 w-auto mx-auto mb-4" 
+                />
               </div>
             </div>
           </div>
